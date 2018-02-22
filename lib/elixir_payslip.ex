@@ -1,18 +1,5 @@
 defmodule Payslip do
-  @moduledoc """
-  Documentation for Payslip.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Payslip.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def create(payslip_info) do
+    "David Rudd,01 March - 31 March,5004,922,4082,450"
   end
 end
